@@ -1,32 +1,32 @@
-const database = {
-	users: [
-		{
-			id: "1",
-			name: "John",
-			email: "John@mail.com",
-		},
-		{
-			id: "2",
-			name: "Sally",
-			email: "Sally@mail.com",
-		},
-		{
-			id: "3",
-			name: "Mustafa",
-			email: "Mustafa@mail.com",
-		},
-	],
-	blogs: [
-		{
-			id: "1",
-			name: "Blog 1",
-		},
-		{
-			id: "2",
-			name: "Blog 2",
-		},
-	],
-};
+// const database = {
+// 	users: [
+// 		{
+// 			id: "1",
+// 			name: "John",
+// 			email: "John@mail.com",
+// 		},
+// 		{
+// 			id: "2",
+// 			name: "Sally",
+// 			email: "Sally@mail.com",
+// 		},
+// 		{
+// 			id: "3",
+// 			name: "Mustafa",
+// 			email: "Mustafa@mail.com",
+// 		},
+// 	],
+// 	blogs: [
+// 		{
+// 			id: "1",
+// 			name: "Blog 1",
+// 		},
+// 		{
+// 			id: "2",
+// 			name: "Blog 2",
+// 		},
+// 	],
+// };
 
 // Create a server
 const express = require("express");
