@@ -1,0 +1,170 @@
+body {
+    background: linear-gradient(to bottom, lightcyan, lightcoral);
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightcoral;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.fb-ig {
+    border-radius: 50px;
+    height: 75px;
+    margin-left: 6px;
+}
+
+.phone-mail {
+    height: 35px;
+    width: 35px;
+    border-radius: 10px;
+    margin-right: 6px;
+}
+
+.h2logos {
+    display: flex;
+    align-items: center;
+}
+
+#parent {
+    display: flex;
+    flex-direction: row;
+    background-color: lightgreen;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+#left {
+    background-color: lightcyan;
+    max-width: 30%;
+    padding: 10px 15px;
+}
+
+#middle {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 40%;
+}
+
+#projects {
+    background-color: lightgreen;
+}
+
+#contact {
+    background-color: lightsalmon;
+    padding: 10px 20px;
+}
+
+#right {
+    max-width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+@media(max-width: 600px) {
+    #parent {
+        flex-direction: column;
+    }
+
+    #left,
+    #middle,
+    #right {
+        max-width: 100%;
+    }
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: rgb(28, 131, 165);
+    font-family: sans-serif;
+}
+
+h3 {
+    font-size: 1.17em;
+}
+
+h4 {
+    color: rgb(28, 131, 165);
+}
+
+.common {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#top {
+    width: 100%;
+    /* height: 800px; */
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(9, 75px);
+    grid-template-areas: "topic topic"
+        "chess car"
+        "chess car"
+        "chess car"
+        "chess car"
+        "microwave amplifier"
+        "microwave amplifier"
+        "microwave amplifier"
+        "microwave amplifier";
+    font-weight: 900;
+    font-size: 50px;
+}
+
+#topic {
+    background-color: yellowgreen;
+    grid-area: topic;
+}
+
+#chess {
+    grid-area: chess;
+}
+
+#car {
+    grid-area: car;
+}
+
+#microwave {
+    grid-area: microwave;
+}
+
+#amplifier {
+    grid-area: amplifier;
+}
+
+div>img {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    border: solid 4px green;
+    border-radius: 15px;
+}
+
+#move {
+    position: relative;
+    animation-name: mymove;
+    animation-duration: 2s;
+    font-size: 26px;
+}
+
+@keyframes mymove {
+    0% {
+        transform: translate(150%, 0px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}

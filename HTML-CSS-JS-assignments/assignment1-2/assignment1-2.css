@@ -1,0 +1,43 @@
+body{
+    background-color: lightcyan;
+}
+
+h1{
+    color: darkgreen;
+}
+
+p{
+    color: lightblue;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+#one{
+    text-align: center;
+    background-image: linear-gradient(lightcyan, darkgreen);
+}
+
+#male{
+    color: darkblue;
+}
+
+#female{
+    color: rgb(255, 101, 127);
+}
+
+#child{
+    color: purple;
+}
+
+.gender{
+    color: darkgreen;
+}
+
+ol{
+    border: 2px solid red;
+    padding: 20px 50px 20px 50px;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+}

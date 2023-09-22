@@ -1,0 +1,49 @@
+body{
+    background-color: darkblue;
+    margin: 80px;
+}
+
+button{
+    height: 80px;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+#reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+#teams{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+
+@media(max-width: 600px) {
+    #teams{
+        flex-direction: column;
+    }
+}
+
+#team1, #team2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-size: 66px;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 46px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoreboard</title>
+    <link rel="stylesheet" href="assignment5.css">
+    <script src="assignment5.js"></script>
+</head>
+
+<body>
+    <div id="reset">
+        <button onclick="reset()">RESET</button>
+    </div>
+    <div id="teams">
+        <div id="team1">
+            <h1>TEAM #1</h1>
+            <p id="left">0</p>
+            <button onclick="incrementValue('left')">+1</button>
+        </div>
+        <div id="team2">
+            <h1>TEAM #2</h1>
+            <p id="right">0</p>
+            <button onclick="incrementValue('right')">+1</button> 
+        </div>
+    </div>
+</body>
+
+</html>

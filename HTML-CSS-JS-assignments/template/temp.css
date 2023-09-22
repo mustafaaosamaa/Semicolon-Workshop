@@ -1,0 +1,188 @@
+#parent {
+    background-color: grey;
+    height: 800px;
+    width: 1000px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(8, auto);
+    grid-template-areas: "header header header"
+        "menu main side"
+        "menu main side"
+        "menu main side"
+        "menu main image"
+        "menu main image"
+        "menu main image"
+        "footer footer footer";
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.common {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header {
+    background-color: red;
+    grid-area: header;
+}
+
+#menu {
+    background-color: red;
+    grid-area: menu;
+}
+
+#main {
+    background-color: red;
+    grid-area: main;
+}
+
+#side {
+    background-color: red;
+    grid-area: side;
+}
+
+#image {
+    background-color: red;
+    grid-area: image;
+}
+
+#footer {
+    background-color: red;
+    grid-area: footer;
+}
+
+/* html, body{
+    margin: 50;
+    padding: 0;
+    height: 100%;
+    background-color: red;
+} */
+/* #out{
+    position: relative;
+    width: 75%;
+    height: 600px;
+    background-color: aqua;
+    top: 50px;
+    left: 50px;
+    margin: 10px;
+    padding: 20px;
+} */
+
+/* #one{
+    border: 2px solid black;
+    display: inline-block;
+    width: 70px;
+    height: 20px;
+    background-color: yellow;
+    padding: 8px;
+    margin: 8px;
+    position: absolute;
+}
+
+#two{
+    border: 2px solid black;
+    display: inline-block;
+    width: 70px;
+    height: 20px;
+    background-color: blue;
+    padding: 8px;
+    margin: 8px;
+    position: absolute;
+    align-self: center;
+} */
+
+/* #three{
+    border: 2px solid black;
+    display: inline-block;
+    width: 70px;
+    height: 20px;
+    background-color: green;
+    padding: 8px;
+    margin: 8px;
+    position: absolute;
+    align-self: end;
+} */
+/* body {
+    background-color: lightcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#one {
+    background-color: yellow;
+    width: 900px;
+    height: 600px;
+    margin: 40px;
+    position: relative;
+}
+
+#two {
+    background-color: blue;
+    text-align: center;
+    font-size: 40px;
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+}
+
+#three {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    right: 350px;
+}
+
+#four {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 100px;
+    left: 300px;
+    right: 500px;
+}
+
+.out{
+    background-color: aqua;
+    width: 800px;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.in1{
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.in2{
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.in3{
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-self: end;
+    align-items: center;
+    justify-content: center;
+} */
